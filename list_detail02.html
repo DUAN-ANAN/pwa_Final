@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/main.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="css/layout.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>主管行動祕書</title>
+</head>
+<body>
+	<header class="cd-main-header">
+		<a class="cd-logo" href="#0">主管行動祕書</a>
+
+		<ul class="cd-header-buttons">
+			<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
+		</ul>
+      <ul class="cd-header-logout">
+        	<a href="#"><li></li></a>
+        </ul>
+	</header>
+
+	<!--內容-->
+	<main class="cd-main-content">
+		<div class="TimeBox">選擇時間:106/10/20~107/5/30</div>
+        
+        <div class="ContBox">
+        	<button type="submit" class="BtnBack" onClick="window.location.href ='list.html'">返回</button>
+        	<p>縣長交辦>建議人:王OO議員</p>
+            <div class="DetailLine">
+            	<span class="Title">建議人</span>
+            	<span class="Txt">104/04/07</span>
+            </div>
+            <div class="DetailLine">
+            	<span class="Title">交辦日期</span>
+            	<span class="Txt">東石鄉</span>
+            </div>
+            <div class="DetailLine">
+            	<span class="Title">預定結案日期</span>
+            	<span class="Txt">東石鄉</span>
+            </div>
+            <div class="DetailLine">
+            	<span class="Title">實際結案日期</span>
+            	<span class="Txt">東石鄉</span>
+            </div>
+            <div class="DetailLine">
+            	<span class="Title">區域</span>
+            	<span class="Txt">東石鄉</span>
+            </div>
+            <div class="DetailLine">
+            	<span class="Title">坐標X</span>
+            	<span class="Txt">東石鄉</span>
+            </div>
+            <div class="DetailLine">
+            	<span class="Title">坐標Y</span>
+            	<span class="Txt">東石鄉</span>
+            </div>
+            <div class="DetailLine">
+            	<span class="Title">案件內容</span>
+            	<span class="Txt">東石鄉</span>
+            </div>
+            <div class="DetailLine">
+            	<span class="Title">處理內容</span>
+            	<span class="Txt">東石鄉</span>
+            </div>
+            <div class="DetailLine">
+            	<span class="Title">陳情書</span>
+            	<span class="Txt">XXXXXXX(檔案名稱)<input name="" type="button"class="BtnDownload"></span>
+            </div>
+            <div class="DetailLine">
+            	<span class="Title">請示單</span>
+            	<span class="Txt">XXXXXXX(檔案名稱)<input name="" type="button" class="BtnDownload"></span>
+            </div>
+            <div class="DetailLine">
+            	<span class="Title">契約編號</span>
+            	<span class="Txt">東石鄉</span>
+            </div>
+            <!--發包工程-->
+            <div class="DetailBox">
+            	<span class="Title">發包工程</span>
+            	<span class="Txt">東石鄉</span>
+                <span class="Title">決標金額(仟元)</span>
+            	<span class="Txt">東石鄉</span>
+                <span class="Title">執行狀態</span>
+            	<span class="Txt">東石鄉</span>
+                <span class="Title">施工進度(%)</span>
+            	<span class="Txt">東石鄉</span>
+            </div>
+            <!--發包工程結尾-->
+        </div>        
+	</main>
+    <!--內容結尾-->
+    
+	<nav class="BottomNav">
+    	<li><a href="map.html"><img src="images/nav_map.svg">圖台</a></li>
+        <li><a href="analysis.html"><img src="images/nav_analysis.svg">統計</a></li>
+        <li class="active"><a href="#"><img src="images/nav_list.svg">列表</a></li>
+    </nav>
+
+	<div class="cd-overlay"></div>
+
+	
+
+	<div id="cd-search" class="cd-search">
+		<form>
+			<input type="search" placeholder="請選擇起始時間">
+            <input type="search" placeholder="請選擇結束時間">
+            <input type="button" value="設定" class="BtnSetting" style="background-color:#67c589;border-radius: 42px; color:#FFF; cursor:pointer; width:80px; display:block;">
+		</form>
+	</div>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/main.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="css/layout.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>主管行動祕書</title>
+</head>
+<body>
+	<header class="cd-main-header">
+		<a class="cd-logo" href="#0">主管行動祕書</a>
+
+		<ul class="cd-header-buttons">
+			<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
+		</ul>
+      <ul class="cd-header-logout">
+        	<a href="#"><li></li></a>
+        </ul>
+	</header>
+
+	<!--內容-->
+	<main class="cd-main-content">
+		<div class="TimeBox">選擇時間:106/10/20~107/5/30</div>
+        <div class="ContBox">
+        	<button type="submit" class="BtnBack" onClick="window.location.href ='analysis_new.html'">返回</button>
+            <!--標題+搜尋-->
+            <div class="Analysis-allBox">
+            	<h2><img src="images/Title-analysis02.svg">標案經費分布統計</h2>
+                <div class="Analysis-search">
+                	<select name="">
+                	  <option>全部</option>
+                	  <option>中央對地方縣市政府計畫型補助款</option>
+                	</select>
+                    <select name="">
+                	  <option>全部</option>
+                	  <option>決標金額()</option>
+                	</select>
+                </div>
+                <div class="Analysis-allBox-c">
+                	<div class="Title">總件數</div>
+                	<span id="" class="Num">158</span>件
+                </div>
+                <div class="Analysis-allBox-c">
+					<div class="Title">總決標金額</div>
+                	<span id="" class="Num">2,760,288</span>千元
+                </div>
+            </div>
+            <!--標題+搜尋結尾-->
+            <!--水利工程科-->
+        	<div class="Analysis-c-gray00">
+            	<h2>水利工程科</h2>
+                <a href="analysis_new_detail02.html">
+                <div class="Box-budget">
+                	<p class="txt-Lakegreen">在建中</p>
+                    <div class="Num">55</div>
+                </div>
+                </a>
+                <a href="#">
+                <div class="Box-budget">
+                	<p class="txt-Lakegreen">已竣工</p>
+                    <div class="Num">34</div>
+                </div>
+                </a>
+                <a href="#">
+                <div class="Box-budget">
+                	<p class="txt-Lakegreen">尚未開工</p>
+                    <div class="Num">6</div>
+                </div>
+                </a>
+                <a href="#">
+                <div class="Box-budget-yellow">
+                	<p class="txt-black">停工中</p>
+                    <div class="Num">6</div>
+                </div>
+                </a>
+            </div>
+            <!--水利工程科結尾-->
+            <!--下水道工程科-->
+        	<div class="Analysis-c-gray00">
+            	<h2>下水道工程科</h2>
+                <a href="#">
+                <div class="Box-budget">
+                	<p class="txt-blue">在建中</p>
+                    <div class="Num">55</div>
+                </div>
+                </a>
+                <a href="#">
+                <div class="Box-budget">
+                	<p class="txt-blue">已竣工</p>
+                    <div class="Num">34</div>
+                </div>
+                </a>
+                <a href="#">
+                <div class="Box-budget">
+                	<p class="txt-blue">尚未開工</p>
+                    <div class="Num">6</div>
+                </div>
+                </a>
+                <a href="#">
+                <div class="Box-budget-red">
+                	<p class="txt-black">停工中</p>
+                    <div class="Num">6</div>
+                </div>
+                </a>
+            </div>
+            <!--下水道工程科結尾-->
+            <!--水土保持科-->
+            <div class="Analysis-c-gray00">
+            	<h2>水土保持科</h2>
+                <a href="#">
+                <div class="Box-budget">
+                	<p class="txt-orange">在建中</p>
+                    <div class="Num">55</div>
+                </div>
+                </a>
+                <a href="#">
+                <div class="Box-budget">
+                	<p class="txt-orange">已竣工</p>
+                    <div class="Num">34</div>
+                </div>
+                </a>
+                <a href="#">
+                <div class="Box-budget">
+                	<p class="txt-orange">尚未開工</p>
+                    <div class="Num">6</div>
+                </div>
+                </a>
+                <a href="#">
+                <div class="Box-budget-blue">
+                	<p class="txt-black">停工中</p>
+                    <div class="Num">6</div>
+                </div>
+                </a>
+            </div>
+            <!--水土保持科結尾-->
+        </div>
+	</main>
+    <!--內容結尾-->
+    
+	<nav class="BottomNav">
+    	<li><a href="#"><img src="images/nav_map.svg">圖台</a></li>
+        <li class="active"><a href="#"><img src="images/nav_analysis.svg">統計</a></li>
+        <li><a href="list.html"><img src="images/nav_list.svg">列表</a></li>
+    </nav>
+
+	<div class="cd-overlay"></div>
+
+	
+
+	<div id="cd-search" class="cd-search">
+		<form>
+			<input type="search" placeholder="請選擇起始時間">
+            <input type="search" placeholder="請選擇結束時間">
+            <input type="button" value="設定" class="BtnSetting" style="background-color:#67c589;border-radius: 42px; color:#FFF; cursor:pointer; width:80px; display:block;">
+		</form>
+	</div>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>

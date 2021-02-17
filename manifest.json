@@ -1,0 +1,21 @@
+{
+    "name": "嘉義行動祕書",
+    "short_name": "行動祕書",      
+    "display": "standalone",
+    "start_url": "./login.html",
+    "background_color": "#FAFAFA",
+    "theme_color": "#00A7E5",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "./images/test_icon_128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "./images/test_icon_512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/main.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="css/layout.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>主管行動祕書</title>
+</head>
+<body>
+	<header class="cd-main-header">
+		<a class="cd-logo" href="#0">主管行動祕書</a>
+
+		<ul class="cd-header-buttons">
+			<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
+		</ul>
+      <ul class="cd-header-logout">
+        	<a href="#"><li></li></a>
+        </ul>
+        <ul class="cd-header-refresh">
+        	<a href="#"><li>資料更新</li></a>
+        </ul>
+	</header>
+
+	<!--內容-->
+	<main class="cd-main-content">
+		<div class="TimeBox">選擇時間:106/10/20~107/5/30</div>
+        <div class="ContBox">
+        <!--標案統計-->
+        <a href="analysis_new_detail.html">
+        <div class="GrayBox-analysis">
+        	<h2><img src="images/Title-analysis01.svg">標案統計表</h2>
+            <div class="GrayBox-budget">
+           	  <div class="Title">標案數</div>
+                <span id="" class="Num">158</span>件
+            </div>
+            <div class="GreenBox-budget">
+            	<div class="Title">總發包預算</div>
+                <span id="" class="Num">2,942,903</span>千元
+            </div>
+            <div class="GreenBox-budget2">
+            	<div class="Title">總決標金額</div>
+                <span id="" class="Num">2,942,903</span>千元
+            </div>
+        </div>
+        </a>
+        <!--標案統計結尾-->
+        <!--標案經費分布統計表-->
+        <div class="GrayBox">
+            <h2><img src="images/Title-analysis02.svg">標案經費分布統計表</h2>
+            <a href="analysis_new_detail-chart.html">
+            <div class="GrayBox-budget-nBG">
+            	<div class="Title">決標金額2億以上</div>
+                <span id="" class="Num">158</span>件
+            </div>
+            </a>
+            <hr/>
+            <a href="#">
+            <div class="GrayBox-budget-nBG">
+            	<div class="Title">決標金額5千萬-2億</div>
+                <span id="" class="Num">158</span>件
+            </div>
+            </a>
+            <hr/>
+            <a href="#">
+            <div class="GrayBox-budget-nBG">
+            	<div class="Title">決標金額1千萬-5千萬</div>
+                <span id="" class="Num">158</span>件
+            </div>
+            </a>
+            <hr/>
+            <a href="#">
+            <div class="GrayBox-budget-nBG">
+            	<div class="Title">決標金額1百萬-1千萬</div>
+                <span id="" class="Num">158</span>件
+            </div>
+            </a>
+            <hr/>
+            <a href="#">
+            <div class="GrayBox-budget-nBG">
+            	<div class="Title">決標金額1百萬以下</div>
+                <span id="" class="Num">158</span>件
+            </div>
+            </a>
+        </div>
+        <!--標案經費分布統計表結尾-->
+        <!--計畫統計表-->
+        <div class="LakeGreenBox">
+            <h2><img src="images/Title-analysis03.svg">計畫統計表</h2>
+            <a href="analysis_new_detail-doc.html">
+            <div class="LakeGreenBox-budget-nBG">
+                <p>流域綜合治理計畫</p>
+                <div class="Piece">44件</div>
+                <div class="Num">1,280,557  (千元)</div>
+            </div>
+            </a>
+            <hr class="line-white">
+            <a href="#">
+            <div class="LakeGreenBox-budget-nBG">
+                <p>中央對地方縣市政府計畫型補助款</p>
+                <div class="Piece">7件</div>
+                <div class="Num">28,931(千元)</div>
+            </div>
+            </a>
+        </div>
+        <!--計畫統計表結尾-->
+        </div>
+	</main>
+    <!--內容結尾-->
+    
+	<nav class="BottomNav">
+    	<li><a href="#"><img src="images/nav_map.svg">圖台</a></li>
+        <li class="active"><a href="#"><img src="images/nav_analysis.svg">統計</a></li>
+        <li><a href="list.html"><img src="images/nav_list.svg">列表</a></li>
+    </nav>
+
+	<div class="cd-overlay"></div>
+
+	
+
+	<div id="cd-search" class="cd-search">
+		<form>
+			<input type="search" placeholder="請選擇起始時間">
+            <input type="search" placeholder="請選擇結束時間">
+            <input type="button" value="設定" class="BtnSetting" style="background-color:#67c589;border-radius: 42px; color:#FFF; cursor:pointer; width:80px; display:block;">
+		</form>
+	</div>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
